@@ -2,7 +2,7 @@ require 'cinch'
 
 bot = Cinch::Bot.new do
   configure do |c|
-    c.server = "irc.devel.redhat.com/6667"
+    c.server = "irc.freenode.org"
     c.nick = "PlatformManagementBot"
     c.channels = ["#PM-scrum-meeting"]
   end
